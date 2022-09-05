@@ -14,9 +14,8 @@ function App() {
     <div>
       <div>Change child state vars from parent</div>
       <button onClick={() => clickIt()}>Change'em</button>
-      <ChildComp ref={ref} greetFunc={greetFunc}>
-        Click me!
-      </ChildComp>
+      <ChildComp ref={ref} greetFunc={greetFunc}/>
+       
     </div>
   );
 }
